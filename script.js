@@ -65,10 +65,9 @@ Promise.all([promiseOne(),promiseSecond(),promiseThree()])
 			cell1.innerHTML= "Total";
 			cell2.innerHTML = sum;
 })
-.catch((error))
-{
-	console.log("error");
-}
+.catch((error)=>{
+	console.log(error);
+})
 
 
 
